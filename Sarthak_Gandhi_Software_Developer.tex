@@ -1,10 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author : Sarthak
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
-
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -14,7 +7,7 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks,colorlinks=true,urlcolor=LinkBlue,linkcolor=LinkBlue]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -27,6 +20,13 @@
 % serif
 \usepackage{charter}
 
+% Optional: Add this if you want to define a custom color
+\definecolor{LinkBlue}{RGB}{0, 70, 140}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=LinkBlue,
+    linkcolor=LinkBlue
+}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -109,12 +109,11 @@
 
 \begin{center}
     {\Huge \scshape Sarthak Gandhi} \\ \vspace{1pt}
-    % St. John's, NL \\ \vspace{1pt}
-    % Toronto, ON \\ \vspace{1pt}
+    St. John's, NL ~ \vspace{1pt} \href{https://sarthak.page/}{\raisebox{-0.2\height}\faCode\ {\underline{sarthak.page}}} \\
     % Software Developer | Full Stack Developer \\ \vspace{1pt}
     \small \raisebox{-0.1\height}\faPhone\ 709-325-7081 ~ 
     \href{mailto:gandhi.sarthak15@gmail.com}
-    {\raisebox{-0.2\height}\faEnvelope\  {\underline{gandhi.sarthak15@gmail.com}}} ~ 
+    {\raisebox{-0.2\height}\faEnvelope\ {\underline{gandhi.sarthak15@gmail.com}}} ~ 
     \href{https://www.linkedin.com/in/sarthakgandhi1/}
     {\raisebox{-0.2\height}\faLinkedin\ {\underline{linkedin.com/in/sarthakgandhi1}}}  ~
     \href{https://github.com/sgandhi15}
@@ -124,18 +123,34 @@
 
 
 % Professional Summmary
+% \section{Professional Summary}
+% Software Developer with 2 years of experience specializing in full-stack development. Proficient in SaaS-based products and adept at building scalable software solutions.
+% \vspace{-8pt}
+
 \section{Professional Summary}
-Software Developer with a demonstrated ability to build scalable web applications for diverse industries, increasing app performance by 30\%. Designed and implemented software architecture that supported over 5,000 active users, collaborating effectively with cross-functional teams to ensure seamless integration and deployment of features.
-\vspace{-8pt}
+Software Developer with over 2 years of experience specializing in designing, developing, and deploying scalable web applications. Skilled in both front-end and back-end technologies, with a strong focus on delivering secure, high-performance solutions.\vspace{-8pt}
+
+% \section{Technical Skills}
+% \begin{itemize}[leftmargin=0.15in, label={}]
+% \small{\item{
+% \textbf{Programming Languages}{: JavaScript, TypeScript, Python, SQL, Java, C} \\
+% \textbf{Frontend/Backend}{: React.js, Next.js, Node.js, Express.js, Nest.js, REST APIs, gRPC, Web3.js, Flask, Pytorch} \\
+% \textbf{UI/UX}{: HTML, CSS, Bootstrap, Material-UI, Tailwind CSS} \\
+% \textbf{Databases}{: PostgreSQL, MongoDB, MySQL, Firebase} \\
+% \textbf{Tools/Technologies}{: Git, Jira, NginX, Swagger, Linux(Unix Utilities), AWS (Amazon Web Services), Matlab, VHDL} \\
+% % \textbf{Soft Skills}{: Team Collaboration, Problem Solving, Communication, Adaptability, Proactive} \\
+% }}
+% \end{itemize}
+% \vspace{-16pt}
 
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{\item{
-\textbf{Programming Languages}{: JavaScript, TypeScript, Python, SQL, Java, C} \\
-\textbf{Frontend/Backend}{: React.js, Next.js, Node.js, Express.js, Nest.js, REST APIs, gRPC, Web3.js, Flask, Pytorch} \\
-\textbf{UI/UX}{: HTML, CSS, Bootstrap, Material-UI, Tailwind CSS} \\
-\textbf{Databases}{: PostgreSQL, MongoDB, MySQL, Firebase} \\
-\textbf{Tools/Technologies}{: Git, Jira, NginX, Swagger, Linux(Unix Utilities), AWS (Amazon Web Services), Matlab, VHDL} \\
+\textbf{Programming Languages}{: JavaScript, TypeScript, Python, SQL, Bash} \\
+\textbf{Frontend/Backend}{: React.js, Node.js, Express.js, Django, Flask, REST APIs, gRPC, Apollo GraphQL} \\
+% \textbf{UI/UX}{: HTML, CSS, Bootstrap, Material-UI, Tailwind CSS} \\
+\textbf{Databases}{: PostgreSQL, MongoDB, Redis} \\
+\textbf{Tools/Technologies}{: Git, AWS, CI/CD pipelines, Docker, Ethereum, ENS, Smart Contracts} \\
 % \textbf{Soft Skills}{: Team Collaboration, Problem Solving, Communication, Adaptability, Proactive} \\
 }}
 \end{itemize}
@@ -149,20 +164,22 @@ Software Developer with a demonstrated ability to build scalable web application
       {Software Developer - Team Lead}{St. John's, NL}
       \resumeItemListStart
         \resumeItem{Delivered a SaaS product MVP by leading a team of 5 and accelerated the time to market by 2 weeks}
-        \resumeItem{Collaborated with stakeholders and cross-functional teams to design the system architecture}
-        \resumeItem{Automated deployment with CI/CD pipelines, cutting deployment time by 30\%}
-        \resumeItem{Optimized database queries and implemented caching mechanisms, improving system performance by 1.7 times}
-        \resumeItem{Mentored two junior developers through code reviews and pair programming to enhance their skills}
+        \resumeItem{Collaborated with stakeholders to design a scalable system architecture that aligns with business goals}
+        \resumeItem{Mentored two junior developers and assisted in establishing the startup's business operations}
+        \resumeItem{Drafted and implemented technical designs to solve business problems, ensuring high maintainability and performance}
+        \resumeItem{Represented the company at the Collision Conference, 2024 in Toronto, showcasing the product and networking with potential clients}
       \resumeItemListEnd
     \resumeSubheading
       {Creadigol Solution}{12/2020 - 8/2022}
       {Full Stack Developer- Team Lead}{Vadodara, India}
       \resumeItemListStart
-        \resumeItem{Led a team of 6 developers on 4 projects, ensuring on-time delivery and high-quality code}
-        \resumeItem{Enhanced application performance by 30\% through code refactoring and optimization}
-        \resumeItem{Implemented automated testing, reducing software bugs and errors by 33\%}
-        \resumeItem{Developed solutions for over 10 client projects and spearheaded 3 in-house projects from concept to completion}
-        \resumeItem{Boosted user engagement by 18\% by implementing interactive solutions in partnership with cross-functional teams}
+        \resumeItem{Led a team of 6 developers on 3 projects, including two customer-facing apps and a backend API}
+        \resumeItem{Built dashboards, a marketplace, a ranking algorithm, and integrated Web3 technology into solutions}
+        \resumeItem{Leveraged AWS, TypeScript, and Python to build scalable applications, managing over 5,000 concurrent users
+        and reducing server costs by 24\%}
+        \resumeItem{Implemented an in-memory cache, reducing query execution time by 31\%, which improved overall application
+        responsiveness and user experience}
+        \resumeItem{Utilized Jest for automated unit and integration testing, leading to a 33\% reduction in bugs and errors}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 \vspace{-16pt}
@@ -172,35 +189,32 @@ Software Developer with a demonstrated ability to build scalable web application
 \vspace{-6pt}
 \resumeSubHeadingListStart
     \resumeProjectHeading
-        {\textbf{Kiderra}  \emph{}}{Next.js, TypeScript, PostgreSQL, Clerk, Bootstrap}
-        \resumeItemListStart
-        \resumeItem{Designed Kiderra to provide a comprehensive SaaS platform for children's services, directing a team of 5 to deliver MVP}
-        \resumeItem{Collaborated with stakeholders to design and align system architecture with business goals and user requirements}
-        \resumeItem{Composed detailed tech stack guides to assist in onboarding and maintain system efficiency for future team members}
-        \resumeItemListEnd
-        \vspace{-16pt}
-    \resumeProjectHeading
-        {\textbf{Santa Cars}  \emph{}}{React.jS, Node.jS, TypeScript, Redux, Express.jS, Web3.js, MongoDB, Material-UI}
-        \resumeItemListStart
-          \resumeItem{Built a comprehensive gaming platform, allowing users to mint NFTs, race cars, and engage in multiplayer games}
-          \resumeItem{Launched an intuitive marketplace for NFT cars and integrated JWT-based authentication for security and integrity}
-          \resumeItem{Engineered secure and scalable platform, working alongside 3 teams to enhance performance and security}
-        \resumeItemListEnd
-        \vspace{-16pt}
+      {\href{https://nextresume.app/}{\underline{\textbf{NextResume - Link}}}  \emph{Ongoing}}{Next.js, TypeScript, SQLlite, Cloudflare Workers}
+      \resumeItemListStart
+        \resumeItem{Developing an innovative platform that enables job seekers to create and share dynamic, interactive resumes tailored to their dream jobs, leveraging AI to enhance personalization and engagement.}
+      \resumeItemListEnd
+    \vspace{-16pt}
+    % \resumeProjectHeading
+    %     {
+    %       % {\raisebox{-0.2\height}\faGithub\ {\underline{github.com/sgandhi15}}}  
+    %     \href{https://kiderra.ca/}{\underline{\textbf{Kiderra - Link}}}  \emph{}}{Next.js, TypeScript, PostgreSQL, Clerk, Bootstrap}
+    %     \resumeItemListStart
+    %     \resumeItem{Designed a SaaS platform MVP focused on services for children, enabling parents to find and
+    %     connect with childcare providers, manage bookings, and track their child’s overall progress.}
+    %     \resumeItemListEnd
+    %     \vspace{-16pt}
     \resumeProjectHeading
         {\textbf{WeatherYOLO}  \emph{}}{Flask, Next.js, Pytorch, Tailwind, YOLOv8, COCO database}
         \resumeItemListStart
-          \resumeItem{Crafted a system to enhance object detection by evaluating YOLOv8’s performance across 4 weather conditions}
-          \resumeItem{Trained YOLOv8 on COCO for 30 epochs and refined model accuracy by compiling results across 25 different scenarios}
-          \resumeItem{Built a web app for real-time object detection using YOLOv8, integrating model results for live performance}
+          \resumeItem{Developed and optimized an object detection system using YOLOv8, improving performance 
+          across four weather conditions and refining model accuracy by training on COCO for 30 epochs across 25 different scenarios. Built a web application for real-time object detection, integrating YOLOv8’s model to deliver live performance results.}
         \resumeItemListEnd
         \vspace{-16pt}
     \resumeProjectHeading
         {\textbf{ParkVision}  \emph{}}{React.js, Flask, PostgreSQL, OpenCV, AWS}
         \resumeItemListStart
-          \resumeItem{Designed a system to detect empty parking spots from real-time surveillance footage using a CNN and Python backend}
-          \resumeItem{Uploaded detected parking space data to a AWS-hosted PostgreSQL instance for centralized storage and retrieval}
-          \resumeItem{Created an app to fetch and display real-time availability of parking spots based on backend analysis}
+         \resumeItem{Designed and implemented a system to detect empty parking spots from real-time surveillance footage using a CNN and Python backend. Integrated the solution by uploading detected parking data to an AWS-hosted PostgreSQL 
+         instance for centralized storage and retrieval. Developed an app to display real-time parking spot availability, leveraging backend analysis for seamless user access.}
         \resumeItemListEnd
   \resumeSubHeadingListEnd
 \vspace{-15pt}
@@ -218,8 +232,17 @@ Software Developer with a demonstrated ability to build scalable web application
 %-----------INVOLVEMENT---------------
 \section{Leadership / Extracurricular}
     \resumeSubHeadingListStart
-        \resumeSubheading{Canada Learning Code}{01/2024 - Present}{Instructor}{}
-    \resumeSubHeadingListEnd
+        \resumeSubheading{\href{https://www.canadalearningcode.ca/}{\underline{Canada Learning Code - Link}}}{01/2024 - 11/2024}{Instructor}{}
+          \resumeItemListStart
+            \resumeItem{Taught 100+ students the basics of AI and awareness of the importance of AI in our daily lives through workshops and events}
+          \resumeItemListEnd
+
+          % \resumeSubheading{\href{https://invinciblengo.org/}{\underline{Invincible NGO - Link}}}{01/2024 - 11/2024}{Instructor}{}
+          % \resumeItemListStart
+          %   \resumeItem{Taught 100+ students the basics of AI and awareness of the importance of AI in our daily lives}
+          % \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
 
 
 \end{document}
