@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.14)  13 DEC 2024 00:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.14)  19 DEC 2024 01:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -377,21 +377,21 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 111
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 137.
+(Font)              <5> on input line 139.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 138.
+(Font)              <7> on input line 140.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 165--167
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 167--169
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 178--180
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 180--182
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 184--186
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 192--194
 []  
  []
 
@@ -413,13 +413,13 @@ Package rerunfilecheck Info: File `Sarthak_Gandhi_Software_Developer.out' has no
 Here is how much of TeX's memory you used:
  13962 strings out of 474486
  242715 string characters out of 5743755
- 1955542 words of memory out of 5000000
+ 1956542 words of memory out of 5000000
  36078 multiletter control sequences out of 15000+600000
  578857 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,489b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,472b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gandh/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/gandh/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/gandh/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/gandh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on Sarthak_Gandhi_Software_Developer.pdf (1 page, 68580 bytes).
+Output written on Sarthak_Gandhi_Software_Developer.pdf (1 page, 68313 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
