@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.14)  19 DEC 2024 01:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.14)  25 DEC 2024 15:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -367,31 +367,31 @@ Package hyperref Info: Link coloring ON on input line 108.
 \openout3 = `Sarthak_Gandhi_Software_Developer.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 111.
+(Font)              <10.95> on input line 116.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 111.
+(Font)              <8> on input line 116.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 111.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 111.
+(Font)              <6> on input line 116.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 116.
  (C:\Users\gandh\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 139.
+(Font)              <5> on input line 143.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 140.
+(Font)              <7> on input line 144.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 167--169
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 177--179
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 180--182
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 184--186
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 192--194
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 196--198
 []  
  []
 
@@ -419,9 +419,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,472b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gandh/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/gandh/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/gandh/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/gandh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on Sarthak_Gandhi_Software_Developer.pdf (1 page, 68313 bytes).
+Output written on Sarthak_Gandhi_Software_Developer.pdf (1 page, 67744 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
